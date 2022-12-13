@@ -1,0 +1,7 @@
+{
+  "name": "region-interface",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
