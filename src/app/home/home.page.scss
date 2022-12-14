@@ -25,3 +25,38 @@
 #container a {
   text-decoration: none;
 }
+ion-content {
+  --background: rgba(0, 0, 0, 0.74) url("/assets/image/bamako.jpg") no-repeat
+    center center / cover;
+}
+.img {
+  --background: rgba(0, 0, 0, 0.74) url("/assets/image/bamako.jpg") no-repeat
+    center center / cover;
+  display: block;
+  width: 50%;
+  margin: auto;
+  height: 80%;;
+
+  body {
+    font-family: "Avenir", sans-serif;
+    color: #33475b;
+  }
+
+  /* Centered Image Code */
+}
+.Accueil{
+  
+ 
+  left: 7px;
+  
+  text-align: center;
+  font-size: 24;
+  font-weight: 40px;
+  line-height: 26px;
+}
+.button {
+  top: 400%;
+color: #000000;
+
+text-align: center;
+}
