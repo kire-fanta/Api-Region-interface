@@ -1,40 +1,98 @@
 <ion-header> </ion-header>
 
 <ion-content>
-  <div class="texte">
-    <div class="logo">
-      <ion-icon color="light" name="contact"></ion-icon>
-      <img src="../../assets/image/.webp" />
+  <div class="container">
+    <div class="texte">
+      <div class="logo">
+        <ion-icon color="light" name="contact"></ion-icon>
+        <img src="assets/image/logo.png" />
+      </div>
+
+      <legend>Bienvenu sur TouristMali.</legend>
+
+      <h4>Découvrir le Mali et ses régions.</h4>
     </div>
-    <h4>Bienvenu sur TouristMali.</h4>
-    <h4>Découvrir le Mali et ses régions.</h4>
-  </div>
-<ion-card> 
-  <div> <h4 class="colordutexte">Connexion</h4>
-  <h4 class="sanscolor"> Inscription</h4>
-  </div>
-  <ion-item>
-    <ion-label color="light">Email</ion-label>
-    <ion-input
-      color="light"
-      type="mail"
-      placeholder="Adresse email"
-    ></ion-input>
-  </ion-item>
 
-  <ion-item>
-    <ion-label color="light">Mot de passe</ion-label>
-    <ion-input
-      color="light"
-      type="password"
-      placeholder="Mot de passe"
-    ></ion-input>
-  </ion-item>
-
-  <ion-button color="light" shape="round" fill="outline">Connexion</ion-button>
-  <br />
-  <ion-button color="tertiary" expand="block" shape="round"
-    >Inscription</ion-button
-  >
-  </ion-card>
+    <div class="login-wrap">
+      <div class="login-html">
+        <input
+          id="tab-1"
+          type="radio"
+          name="tab"
+          class="sign-in"
+          checked
+        /><label for="tab-1" class="tab">Connexion</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up" /><label
+          for="tab-2"
+          class="tab"
+          >Inscription</label
+        >
+        <div class="login-form">
+          <div class="sign-in-htm">
+            <div class="group">
+              <label for="user" class="label">NOM D'UTILISATEUR</label>
+              <input id="user" type="text" class="input" />
+            </div>
+            <div class="group">
+              <label for="pass" class="label"> MOT DE PASSE</label>
+              <input
+                id="pass"
+                type="password"
+                class="input"
+                data-type="password"
+              />
+            </div>
+            <div class="group">
+              <input id="check" type="checkbox" class="check" checked />
+              <label for="check"
+                ><span class="icon"></span> Gardez-moi connecté</label
+              >
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Connexion" />
+            </div>
+            <div class="hr"></div>
+            <div class="foot-lnk">
+              <a href="#forgot">Mot de passe oublié??</a>
+            </div>
+          </div>
+          <div class="sign-up-htm">
+            <div class="group">
+              <label for="user" class="label">NOM D'UTILISATEUR</label>
+              <input id="user" type="text" class="input" />
+            </div>
+            <div class="group">
+              <label for="pass" class="label"> Mot de Passe </label>
+              <input
+                id="pass"
+                type="password"
+                class="input"
+                data-type="password"
+              />
+            </div>
+            <div class="group">
+              <label for="pass" class="label">RÉPÉTER LE MOT DE PASSE</label>
+              <input
+                id="pass"
+                type="password"
+                class="input"
+                data-type="password"
+              />
+            </div>
+            <div class="group">
+              <label for="pass" class="label">ADRESSE E-MAIL</label>
+              <input id="pass" type="text" class="input" />
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Inscription" />
+            </div>
+            <div class="hr"></div>
+            <div class="foot-lnk">
+              <label for="tab-1">Mot de passe oublié??</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>
