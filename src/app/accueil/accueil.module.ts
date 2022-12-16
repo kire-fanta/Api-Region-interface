@@ -4,17 +4,25 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InscriptionPageRoutingModule } from './inscription-routing.module';
+import { AccueilPageRoutingModule } from './accueil-routing.module';
 
-import { InscriptionPage } from './inscription.page';
+import { AccueilPage } from './accueil.page';
+
+
+
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InscriptionPageRoutingModule
+    AccueilPageRoutingModule,
+   
+   
   ],
-  declarations: [InscriptionPage]
+  declarations: [AccueilPage]
+  
 })
-export class InscriptionPageModule {}
+export class AccueilPageModule {}
+

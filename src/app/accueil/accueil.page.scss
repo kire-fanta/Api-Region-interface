@@ -1,0 +1,31 @@
+
+ion-content {
+    --background: #FFFFFF
+  }
+  
+
+ 
+
+  
+    .img {
+      width: 150%;
+    }
+    .ionCARD {
+      margin-top: 50px;
+      margin-right: 12px;
+    }
+
+    .column {
+      flex: 50%;
+
+    }
+
+    .textediallo {
+      font-size: 20px;
+      padding: 20px;
+    }
+    /* iOS places the subtitle above the title */
+ion-card-header.ios {
+  display: flex;
+  flex-flow: column-reverse;
+}
