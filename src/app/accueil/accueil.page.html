@@ -1,85 +1,205 @@
 <ion-header>
+  
   <ion-toolbar>
     <ion-title>Accueil</ion-title>
+    
 
     <ion-button slot="start">
       <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-button>
-
-    
-
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <section id="header" class="jumbotron text-center">
+    <h1 class="display-3">FOREST</h1>
+    <p class="lead">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    </p>
+    <a href="" class="btn btn-primary">Click</a>
+    <a href="" class="btn btn-secondary">Click</a>
+  </section>
 
+  <section id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sunset</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum
+                similique repellat a laborum, rerum voluptates ipsam eos quo
+                tempore iusto dolore modi dolorum in pariatur. Incidunt
+                repellendus praesentium quae!
+              </p>
+              <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="far fa-heart"></i
+              ></a>
+                  <a href="" class="btn btn-outline-danger btn-sm">
+                <i class="far-solid fa-trash"></i
+              ></a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="fas fa-comment"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sunset</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum
+                similique repellat a laborum, rerum voluptates ipsam eos quo
+                tempore iusto dolore modi dolorum in pariatur. Incidunt
+                repellendus praesentium quae!
+              </p>
+              <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="far fa-heart"></i
+              ></a>
+              <a href="" class="btn btn-outline-danger btn-sm">
+                <i class="far-solid fa-trash"></i
+              ></a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="fas fa-comment"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sunset</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum
+                similique repellat a laborum, rerum voluptates ipsam eos quo
+                tempore iusto dolore modi dolorum in pariatur. Incidunt
+                repellendus praesentium quae!
+              </p>
+              <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="far fa-heart"></i
+              ></a>
+                  <a href="" class="btn btn-outline-danger btn-sm">
+                <i class="far-solid fa-trash"></i
+              ></a>
+              <a href="" class="btn btn-outline-danger btn-sm"
+                ><i class="fas fa-comment"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <link
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
 
-
-
-
-  <ion-card class="image">
-    
-<!-- HTML pour le carousel -->
-<ion-slides pager="true" [options]="slideOpt">
-  <ion-slide class="img">
-    <img src="assets/image/bamako.png" alt="image1" />
-  </ion-slide>
-  <ion-slide>
-    <img src="assets/image/gao.jpg" alt="image2" />
-  </ion-slide>
-  <ion-slide>
-    <img src="assets/image/sikasso.jpg" alt="image3" />
-  </ion-slide>
-</ion-slides>
-
-
-
-
-<div class="swiper-wrapper">
-  <!-- Slides -->
-  <div class="swiper-slide">Slide 1</div>
-  <div class="swiper-slide">Slide 2</div>
-  <div class="swiper-slide">Slide 3</div>
-</div>
-<!-- If we need pagination -->
-<div class="swiper-pagination"></div>
-
-<!-- If we need navigation buttons -->
-<div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div>
-
-<!-- If we need scrollbar -->
-<div class="swiper-scrollbar"></div>
-
-
-  </ion-card>
-
+  <!-- mali-carte avec du texte-->
 
   <ion-card class="ionCARD">
-    <ion-grid [fixed]="true" >
+    <ion-grid [fixed]="true">
       <ion-row class="ion-align-items-center">
-        <ion-col >
+        <ion-col>
           <div class="column textediallo">
-            <p> Pays à la nature sauvage, le Mali offre une faune et flore d'exception cohabitant harmonieusement avec des villages aux constructions traditionnelles.
-              Des paysages naturels, souvent surréalistes qui subjuguent dès le premier regard. Visiter les régions du  Mali c'est entrer dans un véritable havre de paix où il fait se ressourcer.
+            <p>
+              Pays à la nature sauvage, le Mali offre une faune et flore
+              d'exception cohabitant harmonieusement avec des villages aux
+              constructions traditionnelles. Des paysages naturels, souvent
+              surréalistes qui subjuguent dès le premier regard. Visiter les
+              régions du Mali c'est entrer dans un véritable havre de paix où il
+              fait se ressourcer.
             </p>
           </div>
         </ion-col>
         <ion-col>
-          <div class="column image"><img src="../../assets/image/ù.png" alt="mali-carte"></div>
+          <div class="column image">
+            <img src="../../assets/image/ù.png" alt="mali-carte" />
+          </div>
         </ion-col>
       </ion-row>
     </ion-grid>
-</ion-card>
-<ion-card>
-  <img  class ="image" alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
+  </ion-card>
 
-  <ion-card-content>
-    Here's a small text description for the card content. Nothing more, nothing less.
-  </ion-card-content>
-</ion-card>
+  <!-- card avec les chiffre de la supperficie-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-xl-3">
+        <div class="card bg-c-blue order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Orders Received</h6>
+            <h2 class="text-right">
+              <i class="fa fa-cart-plus f-left"></i><span>486</span>
+            </h2>
+            <p class="m-b-0">
+              Completed Orders<span class="f-right">351</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xl-3">
+        <div class="card bg-c-green order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Orders Received</h6>
+            <h2 class="text-right">
+              <i class="fa fa-rocket f-left"></i><span>486</span>
+            </h2>
+            <p class="m-b-0">
+              Completed Orders<span class="f-right">351</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xl-3">
+        <div class="card bg-c-yellow order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Orders Received</h6>
+            <h2 class="text-right">
+              <i class="fa fa-refresh f-left"></i><span>486</span>
+            </h2>
+            <p class="m-b-0">
+              Completed Orders<span class="f-right">351</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xl-3">
+        <div class="card bg-c-pink order-card">
+          <div class="card-block">
+            <h6 class="m-b-20">Orders Received</h6>
+            <h2 class="text-right">
+              <i class="fa fa-credit-card f-left"></i><span>486</span>
+            </h2>
+            <p class="m-b-0">
+              Completed Orders<span class="f-right">351</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>
