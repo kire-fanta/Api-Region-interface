@@ -6,7 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
   constructor() {}
-
+  slideOpts = {
+    direction: 'vertical',
+    pager: true,
+  };
 }
+
+import { IonSlides } from '@ionic/angular';
+
+
+  // Autres méthodes du composant ici
+
+
+

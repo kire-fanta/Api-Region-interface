@@ -26,10 +26,23 @@
   text-decoration: none;
 }*/
 ion-content {
-  --background: #ffffffff no-repeat
-    center center / cover;
-   box-shadow: 50%;
+  --background: #ffffffff no-repeat center center / cover;
+  box-shadow: 50%;
+  .home__title {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 9%;
+top: 40%;
+
+  }
+
+  .title {
+    font-size: 200%;
+    text-align: center;
+    height: 10%;
+  }
 }
+
 .img {
   --background: rgba(0, 0, 0, 0.74) url("/assets/image/mali.jpg") no-repeat
     center center / cover;
@@ -39,7 +52,6 @@ ion-content {
   height: 80%;
   bottom: 2%;
   margin-top: 4%;
- 
 
   body {
     font-family: "Avenir", sans-serif;
