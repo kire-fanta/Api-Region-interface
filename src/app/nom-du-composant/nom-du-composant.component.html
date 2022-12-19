@@ -1,0 +1,83 @@
+<!-- <ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Footer - No Border</ion-title>
+  </ion-toolbar>
+</ion-footer>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+</ion-footer> -->
+<ion-footer>
+  <!-- <ion-toolbar>
+    <ion-title>Footer</ion-title>
+    <form>
+      <ion-input type="email" placeholder="Enter your email"></ion-input>
+      <ion-button type="submit" expand="full">Send</ion-button>
+    </form>
+  </ion-toolbar>
+  <form (ngSubmit)="onSubmit(form)">
+  <ion-input type="email" placeholder="Enter your email" ngModel name="email"></ion-input>
+  <ion-button type="submit" expand="full">Send</ion-button>
+</form> -->
+
+  <form #form="ngForm">
+    <!-- ... -->
+  </form>
+  <div class="row">
+    <div class="col-md-4 mb-md-0 mb-4">
+      <h2 class="footer-heading">A propos</h2>
+      <p>
+        MaliTourist permet de découvrir les différentes régions du Maliet leurs
+        caractéristiques Elle donne la possibilité de sélectionner une région en
+        particulier et d'afficher des informations détaillées sur celle-ci..Les
+        informations disponibles peuvent inclure la population, la superficie,
+        les attractions touristiques, les industries et les secteurs d'activité
+        principaux de la région.
+      </p>
+    </div>
+    <div class="forms"></div>
+    <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
+      <h2 class="footer-heading footer-heading-white">Contact</h2>
+      <form action="#" class="contact-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="votre nom" />
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Votre E-mail" />
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Object" />
+        </div>
+        <div class="form-group">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+            class="form-control"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="form-control submit px-3">
+            Envoyer
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="row mt-md-5">
+    <div class="col-md-12">
+      <p class="copyright">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        M'ba Fatoumata kire,tousdroits réserves|
+      </p>
+    </div>
+  </div>
+</ion-footer>
