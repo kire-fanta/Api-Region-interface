@@ -8,13 +8,14 @@ import { AccueilPageRoutingModule } from './accueil-routing.module';
 
 import { AccueilPage } from './accueil.page';
 import { MonComposantComponent } from "../mon-composant/mon-composant.component";
+import { NomDuComposantComponent } from '../nom-du-composant/nom-du-composant.component';
 
 
 
 
 
 @NgModule({
-    declarations: [AccueilPage,MonComposantComponent],
+    declarations: [AccueilPage,MonComposantComponent,NomDuComposantComponent],
     imports: [
         CommonModule,
         FormsModule,
