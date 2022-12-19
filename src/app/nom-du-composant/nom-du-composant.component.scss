@@ -1,3 +1,22 @@
-.forms{
-    top: 100%;
+.centre{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-heading{
+    font-size: 32px;
+    font-weight:700;
+}
+.copyright{
+    text-align: center;
+}
+.container{
+  background: rgba(0, 0, 0, 0.74) url("/assets/image/mali.jpg") no-repeat
+    center center / cover;
+}
+.form-group input, .form-group textarea,.px-3{
+    background: #000;
+    margin-bottom: 10px;
 }

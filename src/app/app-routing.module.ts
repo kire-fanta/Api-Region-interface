@@ -21,7 +21,11 @@ const routes: Routes = [
     path: 'accueil',
     loadChildren: () =>
       import('./accueil/accueil.module').then((m) => m.AccueilPageModule),
+  },  {
+    path: 'd-regions',
+    loadChildren: () => import('./d-regions/d-regions.module').then( m => m.DRegionsPageModule)
   }
+
 ];
 
 @NgModule({
