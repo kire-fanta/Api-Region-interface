@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core' 
 @Component({
   selector: 'app-mon-composant',
   templateUrl: './mon-composant.component.html',

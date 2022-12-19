@@ -3,19 +3,26 @@ ion-content {
     // center center / cover;
    box-shadow: 50%;
 }
-.texte {
-  text-align: center;
+
+.tex{
+   font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+    font-style: italic;
+    text-align: center;
 }
-.logo ion-icon {
-  font-size: 4em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.logo ion-icon img {
-  width: 20px !important;
-}
+
+// .logo ion-icon {
+//   font-size: 4em;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+// .logo ion-icon img {
+//   width: 20px !important;
+// }
 // .container {
 //   // margin-top: 8%;
 //   border-radius: 20px;
@@ -47,14 +54,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.c{
+  color: #009E03;
+}
 .login-wrap {
   // width: 100%;
   margin: auto;
   max-width: 525px;
   min-height: 560px;
   position: relative;
-  background: url("/assets/image/mali.jpg") no-repeat center;
+background-color: #000;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -112,7 +121,7 @@ a {
 .login-form .group .input,
 .login-form .group .button {
   width: 100%;
-  color: #fff;
+  color: #FFF;
   display: block;
 }
 .login-form .group .input,
@@ -139,14 +148,14 @@ a {
   border-radius: 2px;
   position: relative;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(156, 103, 113, 0.1);
 }
 .login-form .group label .icon:before,
 .login-form .group label .icon:after {
   content: "";
   width: 10px;
   height: 2px;
-  background: #fff;
+  background: rgb(72, 159, 45);
   position: absolute;
   transition: all 0.2s ease-in-out 0s;
 }
@@ -204,4 +213,7 @@ img {
     position: absolute;
     padding: 90px 70px 50px 70px;
     background: #009E03(40, 57, 101, 0.9);
+}
+.sign-up{
+  color: #FFF;
 }

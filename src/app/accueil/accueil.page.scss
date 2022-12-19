@@ -7,24 +7,32 @@ ion-content {
  
 
 
-    .column {
-      flex: 50%;
-
-    }
-
-    .textediallo {
-      font-size: 20px;
-      padding: 20px;
-    }
-    /* iOS places the subtitle above the title */
-ion-card-header.ios {
-  display: flex;
-  flex-flow: column-reverse;
-}
+   
 /* card du header */         
-#header {
-  background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat ;
-}
+.home__title {
+    margin-top: 5%;
+    text-align: center;
+    
+    margin-bottom: 4%;
+top: 40%;
+ 
+
+  }
+
+  .title {
+   
+    text-align: center;
+    margin-bottom: 6%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    
+    color: #000;;
+    font-style: italic;
+   
+  }
+  .color{
+   color:  #FF0000;
+  }
 body{
     margin-top:20px;
     background:#FAFAFA;
@@ -34,19 +42,22 @@ body{
 }
 
 .bg-c-blue {
-    background: linear-gradient(45deg,#4099ff,#73b4ff);
+    background-color: #000; 
 }
 
 .bg-c-green {
-    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+    background-color: #000; 
+
+
+   ;
 }
 
 .bg-c-yellow {
-    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+   background-color: #000; ;
 }
 
 .bg-c-pink {
-    background: linear-gradient(45deg,#FF5370,#ff869a);
+   background-color: #000; 
 }
 
 
