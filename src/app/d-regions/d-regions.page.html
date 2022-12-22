@@ -4,6 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content>
   <div class="container py-3">
     <div class="title h1 text-center" style="color:red ; text-align: center;
@@ -12,7 +13,18 @@
     font-size: 6rem;
     
    
-    font-style: italic;">Mopti</div>
+    font-style: italic;">Mopti
+    
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+    
+
+
+  
+ 
+    
+  </div>
+  
     <!-- Card Start -->
     <div class="card">
       <div class="row ">
@@ -159,6 +171,117 @@
 </div>
  
    
+<div class="container mt-5 mb-5">
+  <div class="row height d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+          <div class="card">
+              <div class="p-3">
+                  <h6>Comments</h6>
+              </div>
+              <div class="mt-3 d-flex flex-row align-items-center p-3 form-color"> <img src="https://i.imgur.com/zQZSWrt.jpg" width="50" class="rounded-circle mr-2"><form>
+  <input type="text" class="form-control" placeholder="Entre votre commmentaire">
   
+  <button type="submit" class="btn btn-primary" style="color: red; background-color:#0000; border-color: red;" >Envoyer</button>
+</form>
+</div>
+              <div class="mt-2">
+                  <div class="d-flex flex-row p-3"> <img src="https://i.imgur.com/zQZSWrt.jpg" width="40" height="40" class="rounded-circle mr-3">
+                      <div class="w-100">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center"> <span class="mr-2">Brian selter</span>  </div> <small>12h ago</small>
+                          </div>
+                          <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                          <div class="d-flex flex-row user-feed">   </div>
+                      </div>
+                  </div>
+                  <div class="d-flex flex-row p-3"> <img src="https://i.imgur.com/zQZSWrt.jpg" width="40" height="40" class="rounded-circle mr-3">
+                      <div class="w-100">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center"> <span class="mr-2">Brian selter</span>  </div> <small>12h ago</small>
+                          </div>
+                          <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                          <div class="d-flex flex-row user-feed">   </div>
+                      </div>
+                  </div>
+                  <div class="d-flex flex-row p-3"> <img src="https://i.imgur.com/zQZSWrt.jpg" width="40" height="40" class="rounded-circle mr-3">
+                    <div class="w-100">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center"> <span class="mr-2">Brian selter</span>  </div> <small>12h ago</small>
+                        </div>
+                        <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="d-flex flex-row user-feed">   </div>
+                    </div>
+                </div>
+                  <!-- <div class="d-flex flex-row p-3"> <img src="https://i.imgur.com/3J8lTLm.jpg" width="40" height="40" class="rounded-circle mr-3">
+                      <div class="w-100">
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="d-flex flex-row align-items-center"> <span class="mr-2">Seltos Majito</span> <small class="c-badge">Top Comment</small> </div> <small>2h ago</small>
+                          </div>
+                          <p class="text-justify comment-text mb-0">Tellus in hac habitasse platea dictumst vestibulum. Lectus nulla at volutpat diam ut venenatis tellus. Aliquam etiam erat velit scelerisque in dictum non consectetur. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec. Tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra. Aliquam faucibus purus in massa.</p>
+                          <div class="d-flex flex-row user-feed"> <span class="wish"><i class="fa fa-heartbeat mr-2"></i>14</span> <span class="ml-3"><i class="fa fa-comments-o mr-2"></i>Reply</span> </div>
+                      </div>
+                  </div> -->
+                 
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" href="#bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" id ="bd-example-modal-lg"  role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+
+<div class="btn">
+  <a  data-bs-toggle="modal" href="#exampleModal" data-bs-whatever="@getbootstrap" class="btntu">Ajouter une région</a>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Ajouter une Region</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<form>
+  <div class="row justify-content-between text-left mb-3">
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Code :</label> <input type="text" class="form-control" id="code"> </div>
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Nom :</label> <input type="text" class="form-control" id="nom"> </div>
+  </div>
+  <div class="row justify-content-between text-left mb-3">
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Superficie :</label> <input type="text" class="form-control" id="superficie"> </div>
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Nombre d'Habitant :</label> <input type="text" class="form-control" id="habitant"> </div>
+  </div>
+  <div class="row justify-content-between text-left mb-3">
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Domaine d'Activité :</label> <input type="text" class="form-control" id="activite"> </div>
+      <div class="form-group col-sm-6 flex-column d-flex"> <label class="col-form-label">Langue Majoritaire :</label> <input type="text" class="form-control" id="Langue"> </div>
+  </div>
+<div class="mb-3">
+  <label for="recipient-name" class="col-form-label">Description :</label>
+  <input type="text" class="form-control" id="description">
+</div>
+<div class="mb-3">
+  <input type="file" class="custom-file-input" id="inputGroupFile01"
+    aria-describedby="inputGroupFileAddon01">
+  <label class="custom-file-label" for="inputGroupFile01">Choisi une image</label>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary bt" data-bs-dismiss="modal">fermer</button>
+<button type="button" class="btn btn-primary">Ajouter</button>
+</div>
+</div>
+</div>
+</div>
    
 </ion-content>
